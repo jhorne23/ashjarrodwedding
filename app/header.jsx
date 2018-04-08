@@ -18,7 +18,6 @@ const toolbarStyle = {
 }
 
 const fancyWriting = {
-    fontFamily: 'Cinzel Decorative, cursive',
     fontSize: '5em' ,
     paddingLeft: 33,
     paddingTop: 5,
@@ -95,19 +94,12 @@ class Header extends React.Component {
 
                 <div className='container'>
                     <div className='header'>
-                        Bianca &amp; Paul
-                    </div>
-                    <div className="date">
-                        11/11/2017
+                        YOU
                     </div>
                     <div className='sidebar'>
                         <ul className='sidebarlist'>
-                            <ListItem content="About Us" onClick={this.changeSelection} mkey="AboutUs"/>
-                            <ListItem content="Venue" onClick={this.changeSelection} mkey="Venue"/>
-                            <ListItem content="Itinerary" onClick={this.changeSelection} mkey="Itinerary"/>
                             <ListItem content="FAQ" onClick={this.changeSelection} mkey="FAQ"/>
-                            <ListItem content="RSVP" onClick={this.changeSelection} mkey="RSVP"/>
-                            <ListItem content="Hi there" onClick={this.changeSelection} mkey="JARROD"/>
+                            <ListItem content="Hi there" onClick={this.changeSelection} mkey="Wedding"/>
                         </ul>
                     </div>
                     <div className='content'>
