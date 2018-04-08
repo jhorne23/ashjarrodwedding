@@ -94,12 +94,13 @@ class Header extends React.Component {
 
                 <div className='container'>
                     <div className='header'>
-                        YOU
+                        Ashleigh & Jarrod
                     </div>
                     <div className='sidebar'>
                         <ul className='sidebarlist'>
+                            <ListItem content="About Us" onClick={this.changeSelection} mkey="AboutUs"/>
                             <ListItem content="FAQ" onClick={this.changeSelection} mkey="FAQ"/>
-                            <ListItem content="Hi there" onClick={this.changeSelection} mkey="Wedding"/>
+                            <ListItem content="Wedding" onClick={this.changeSelection} mkey="Wedding"/>
                         </ul>
                     </div>
                     <div className='content'>
