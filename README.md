@@ -17,6 +17,8 @@ To customise the page skeleton that exists on every page, change the html in the
 
 If you want to add HTML to a single page, you can just add it to the markdown files.
 
+If you have changed *anything in a file that ends with .jsx* then to see that change you must run step 2 & 3 from the above section to see those changes.
+
 # Publishing this
 If you're happy with it, then you need to create your docker image to run this with. To do so run 
 
