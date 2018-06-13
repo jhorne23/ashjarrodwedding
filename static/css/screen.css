@@ -514,7 +514,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Limerence";
   right: 0px;
   left: 0px;
-  Top: 40%;
+  Top: 30%;
   font-size: 60px;
   font-weight: 300;
   text-align: center;
@@ -675,7 +675,7 @@ z-index:99999;
   height: 836px;
 }
 
-#weekend-activities {
+#weekend-activities{
   height: 836px;
 }
 
@@ -683,89 +683,40 @@ z-index:99999;
 #registry {
   height: 836px;
 }
-/* line 706, ../sass/screen.scss */
-#registry .links {
-  overflow: hidden;
-  *zoom: 1;
-  width: 600px;
-  margin: 40px auto;
-}
-/* line 712, ../sass/screen.scss */
-#registry .links div {
-  float: left;
-  width: 33%;
-  text-align: center;
-}
-/* line 718, ../sass/screen.scss */
-#registry .links a {
-  display: inline-block;
-}
-/* line 722, ../sass/screen.scss */
-.ie7 #registry .links a {
-  display: block;
-  margin-left: 35%;
-}
 
 /* line 703, ../sass/screen.scss */
 #rsvp {
   height: 836px;
 }
 
-/* line 731, ../sass/screen.scss */
-#travel {
-  height: 614px;
-}
-/* line 734, ../sass/screen.scss */
-#travel .links {
-  margin: 30px 0;
-  overflow: hidden;
-  *zoom: 1;
-}
-/* line 738, ../sass/screen.scss */
-#travel .links a {
-  float: left;
-  margin: 0 55px 0 20px;
-}
-/* line 743, ../sass/screen.scss */
-#travel .links .heading-book-by-phone {
-  float: right;
-  margin: 0 20px 0 0;
+#rsvp .first {
+  visibility: visible;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: url(../img/bg/backgroundObject6-0.jpg) no-repeat left top;
 }
 
-/* line 751, ../sass/screen.scss */
-#to-do-to-eat {
-  height: 912px;
+#rsvp .second {
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: url(../img/bg/backgroundObject6-1.jpg) no-repeat left top;
 }
-/* line 754, ../sass/screen.scss */
-#to-do-to-eat .suggestions {
-  overflow: hidden;
-  *zoom: 1;
-}
-/* line 757, ../sass/screen.scss */
-#to-do-to-eat .suggestions h4 {
-  font-family: "brandon", sans-serif;
-  margin-bottom: 15px;
-  text-transform: uppercase;
-  font-size: 16px;
-  font-size: 1.14286rem;
-  letter-spacing: 1px;
-}
-/* line 765, ../sass/screen.scss */
-#to-do-to-eat .suggestions div {
-  float: left;
-  width: 253px;
-}
-/* line 770, ../sass/screen.scss */
-#to-do-to-eat .suggestions li {
-  margin-bottom: 15px;
-}
-/* line 773, ../sass/screen.scss */
-#to-do-to-eat .suggestions li a {
-  color: #a29061;
-}
-/* line 779, ../sass/screen.scss */
-#to-do-to-eat .heading-to-eat {
-  margin-top: 100px;
+
+#rsvp .third {
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: url(../img/bg/backgroundObject6-2.jpg) no-repeat left top;
 }
 
 /* line 784, ../sass/screen.scss */
