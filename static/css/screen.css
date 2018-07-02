@@ -385,7 +385,7 @@ z-index:99999;
 
 /* line 287, ../sass/screen.scss */
 #our-story {
-  height: 768px;
+  height: 836px;
   z-index: 2;
 }
 /* line 291, ../sass/screen.scss */
@@ -516,6 +516,19 @@ z-index:99999;
 
 #weekend-activities{
   height: 836px;
+}
+
+#walkingTourButton {
+  position: absolute;
+  font-family: "Limerence";
+  font-size: 35px;
+  color: rgb(195, 149, 13);
+  right: 15%;
+  top: 40%;
+  height: 15%;
+  width: 15%;
+  border: none;
+  background: none;
 }
 
 /* line 703, ../sass/screen.scss */
