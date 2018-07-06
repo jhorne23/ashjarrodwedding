@@ -357,7 +357,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 60px;
   font-weight: 300;
   text-align: center;
-  color: rgb(195, 149, 13);
+  color: rgb(185, 162, 94);
   z-index: 2;
 }
 /* line 266, ../sass/screen.scss */
@@ -393,13 +393,15 @@ h1.our-story {
   position: absolute;
   text-align: left;
   font-family: "Limerence";
-  font-size: 350%;
-  color: rgb(195, 149, 13);
+  font-size: 400%;
+  font-weight: bold;
+  color: rgb(185, 162, 94);
   left: 8%;
   top: 10%;
   height: 15%;
   width: 40%;
 }
+
 /* line 291, ../sass/screen.scss */
 #our-story .carousel-inner {
   height: 100%;
@@ -491,7 +493,7 @@ h1.our-story {
   position: absolute;
   font-family: "Limerence";
   font-size: 35px;
-  color: rgb(195, 149, 13);
+  color: rgb(185, 162, 94);
   right: 15%;
   top: 40%;
   height: 15%;
@@ -503,6 +505,19 @@ h1.our-story {
 /* line 703, ../sass/screen.scss */
 #registry {
   height: 836px;
+}
+
+h1.registry {
+  position: absolute;
+  text-align: center;
+  font-family: "Limerence";
+  font-size: 400%;
+  font-weight: bold;
+  color: rgb(185, 162, 94);
+  right: 7%;
+  top: 4%;
+  height: 15%;
+  width: 40%;
 }
 
 /* line 703, ../sass/screen.scss */
@@ -642,7 +657,7 @@ h1.our-story {
   position: absolute;
   font-family: "Limerence";
   font-size: 200%;
-  color: rgb(195, 149, 13);
+  color: rgb(185, 162, 94);
   right: 2%;
   bottom: 2%;
   height: 15%;
@@ -659,6 +674,19 @@ h1.our-story {
   height: 100%;
   width: 100%;
   background: url(../img/bg/backgroundObject6-2.png) no-repeat left top;
+}
+
+h1.thanks {
+  position: absolute;
+  text-align: center;
+  font-family: "Limerence";
+  font-size: 500%;
+  font-weight: bold;
+  color: rgb(185, 162, 94);
+  left: 0%;
+  right: 0%;
+  top: 40%;
+  height: 20%;
 }
 
 /* line 784, ../sass/screen.scss */
@@ -796,7 +824,7 @@ h1.our-story {
 /* line 902, ../sass/screen.scss */
 .carousel-control {
   position: absolute;
-  color: rgb(195, 149, 13);
+  color: rgb(185, 162, 94);
   top: 30%;
   left: 1%;
   margin-top: 0px;
