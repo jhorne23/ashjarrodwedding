@@ -489,15 +489,55 @@ h1.our-story {
   height: 836px;
 }
 
+#stayzAccomButton {
+  position: absolute;
+  left: 15%;
+  top: 49%;
+  height: 4%;
+  width: 15.5%;
+  border: none;
+  background: none;
+}
+
+#holidayRentalSpecialistsButton {
+  position: absolute;
+  left: 33.3%;
+  top: 49%;
+  height: 4%;
+  width: 18.5%;
+  border: none;
+  background: none;
+}
+
+#berrimaBakehouseButton {
+  position: absolute;
+  left: 14.5%;
+  top: 56%;
+  height: 8%;
+  width: 31.5%;
+  border: none;
+  background: none;
+}
+
+#gibraltarHotelButton {
+  position: absolute;
+  left: 14.5%;
+  top: 67%;
+  height: 8%;
+  width: 31.5%;
+  border: none;
+  background: none;
+}
+
 #walkingTourButton {
   position: absolute;
   font-family: "Limerence";
   font-size: 35px;
   color: rgb(185, 162, 94);
-  right: 15%;
-  top: 40%;
-  height: 15%;
-  width: 15%;
+  right: 18%;
+  top: 39%;
+  height: 14%;
+  width: 12%;
   border: none;
   background: none;
 }
@@ -514,8 +554,8 @@ h1.registry {
   font-size: 400%;
   font-weight: bold;
   color: rgb(185, 162, 94);
-  right: 7%;
-  top: 4%;
+  right: 6%;
+  top: 14%;
   height: 15%;
   width: 40%;
 }
@@ -680,12 +720,11 @@ h1.thanks {
   position: absolute;
   text-align: center;
   font-family: "Limerence";
-  font-size: 500%;
-  font-weight: bold;
-  color: rgb(185, 162, 94);
+  font-size: 800%;
+  color: rgb(163, 0, 50);
   left: 0%;
   right: 0%;
-  top: 40%;
+  top: 37%;
   height: 20%;
 }
 
