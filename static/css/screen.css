@@ -496,6 +496,8 @@ h1.our-story {
   height: 4%;
   width: 15.5%;
   border: none;
+  border-bottom-style: double;
+  border-bottom-color: rgb(163, 0, 50);
   background: none;
 }
 
@@ -506,26 +508,32 @@ h1.our-story {
   height: 4%;
   width: 18.5%;
   border: none;
+  border-bottom-style: double;
+  border-bottom-color: rgb(163, 0, 50);
   background: none;
 }
 
 #berrimaBakehouseButton {
   position: absolute;
-  left: 14.5%;
+  left: 15%;
   top: 56%;
-  height: 8%;
-  width: 31.5%;
+  height: 4%;
+  width: 31%;
   border: none;
+  border-bottom-style: double;
+  border-bottom-color: rgb(163, 0, 50);
   background: none;
 }
 
 #gibraltarHotelButton {
   position: absolute;
-  left: 14.5%;
+  left: 15%;
   top: 67%;
-  height: 8%;
-  width: 31.5%;
+  height: 4%;
+  width: 31%;
   border: none;
+  border-bottom-style: double;
+  border-bottom-color: rgb(163, 0, 50);
   background: none;
 }
 
@@ -563,6 +571,30 @@ h1.registry {
 /* line 703, ../sass/screen.scss */
 #rsvp {
   height: 836px;
+}
+
+h1.rsvp {
+  position: absolute;
+  text-align: center;
+  font-family: "Limerence";
+  font-size: 1000%;
+  color: rgb(163, 0, 50);
+  left: 30%;
+  right: 20%;
+  top: 30%;
+  height: 20%;
+  border-bottom-style: double;
+  border-bottom-color: rgb(163, 0, 50);
+  cursor: pointer;
+}
+
+#presentRSVPForm {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  height: 100%;
+  width: 100%;
+  background: none;
 }
 
 #rsvp .first {
