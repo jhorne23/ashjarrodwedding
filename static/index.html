@@ -23,8 +23,8 @@
         </script>
         <script>
             function ClickSubmitForm() {
-                document.getElementById("rsvp").getElementsByClassName('second')[0].style.visibility = "hidden";
-                document.getElementById("rsvp").getElementsByClassName('third')[0].style.visibility = "visible";
+                document.getElementById("rsvpForm").getElementsByClassName('second')[0].style.visibility = "hidden";
+                document.getElementById("rsvpForm").getElementsByClassName('third')[0].style.visibility = "visible";
             }
         </script>
     </head>
@@ -126,11 +126,18 @@
                 </div>
             </section>
 
+            <section id="rsvp">
+                <img src="img/bg/backgroundObject6-0.png" width="1300" height="836">
+                <h1 class="rsvp">RSVP</h1>
+            </section>
+            <!--
             <section id="rsvp" onclick="ClickRSVPSection()">
+            
                 <div class="first">
                     <h1 class="rsvp">RSVP</h1>
                 </div>
-                
+            -->
+            <section id="rsvpForm">
                 <div class="second">
                     <form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSctElK4MYsF1MHVGqvx45JdUXc2eZqYO9KFOZXX070PdbmJFQ/formResponse" method="POST"
                     onsubmit="ClickSubmitForm()">
