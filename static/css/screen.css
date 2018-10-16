@@ -402,6 +402,19 @@ h1.our-story {
   width: 40%;
 }
 
+h2.our-story {
+  position: absolute;
+  text-align: center;
+  font-family: "Limerence";
+  font-size: 220%;
+  font-weight: normal;
+  color: rgb(24, 21, 21);
+  left: 6%;
+  top: 22%;
+  height: 70%;
+  width: 50%;
+}
+
 /* line 291, ../sass/screen.scss */
 #our-story .carousel-inner {
   height: 100%;
