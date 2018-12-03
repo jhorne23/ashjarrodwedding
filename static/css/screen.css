@@ -3,6 +3,16 @@
   src: url("../assets/Limerence.ttf"); /*URL to font*/
 }
 
+@font-face {
+  font-family: "Jelytta"; /*a name to be used later*/
+  src: url("../assets/Jelytta.otf"); /*URL to font*/
+}
+
+@font-face {
+  font-family: "Nerd Fellow"; /*a name to be used later*/
+  src: url("../assets/FB Nerd Fellow Regular.ttf"); /*URL to font*/
+}
+
 /* CONFIG */
 /* sprites */
 /* line 258, heading/*.png */
@@ -392,9 +402,8 @@ z-index:99999;
 h1.our-story {
   position: absolute;
   text-align: left;
-  font-family: "Limerence";
-  font-size: 400%;
-  font-weight: bold;
+  font-family: "Jelytta";
+  font-size: 330%;
   color: rgb(185, 162, 94);
   left: 8%;
   top: 10%;
@@ -500,6 +509,66 @@ h2.our-story {
 
 #weekend-activities{
   height: 836px;
+}
+
+h1.weekend-activities {
+  position: absolute;
+  text-align: left;
+  font-family: "Jelytta";
+  font-size: 320%;
+  color: rgb(185, 162, 94);
+  left: 20%;
+  top: 9%;
+  height: 15%;
+  width: 60%;
+}
+
+h2.sunday-activities {
+  position: absolute;
+  text-align: left;
+  font-family: "Jelytta";
+  font-size: 200%;
+  color: rgb(185, 162, 94);
+  left: 23%;
+  top: 21%;
+  height: 15%;
+  width: 60%;
+}
+
+p.sunday-activities {
+  position: absolute;
+  text-align: center;
+  font-family: "Nerd Fellow";
+  font-size: 180%;
+  color: rgb(40, 40, 40);
+  left: 23%;
+  top: 27%;
+  height: 25%;
+  width: 59%;
+}
+
+h2.tuesday-activities {
+  position: absolute;
+  text-align: left;
+  font-family: "Jelytta";
+  font-size: 200%;
+  color: rgb(185, 162, 94);
+  left: 26%;
+  top: 54%;
+  height: 15%;
+  width: 60%;
+}
+
+p.tuesday-activities {
+  position: absolute;
+  text-align: center;
+  font-family: "Nerd Fellow";
+  font-size: 180%;
+  color: rgb(40, 40, 40);
+  left: 26%;
+  top: 60%;
+  height: 25%;
+  width: 63.5%;
 }
 
 #stayzAccomButton {
